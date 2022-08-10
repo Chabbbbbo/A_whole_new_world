@@ -1,0 +1,1106 @@
+{
+  "nbformat": 4,
+  "nbformat_minor": 0,
+  "metadata": {
+    "colab": {
+      "name": "Untitled12.ipynb",
+      "provenance": []
+    },
+    "kernelspec": {
+      "name": "python3",
+      "display_name": "Python 3"
+    },
+    "language_info": {
+      "name": "python"
+    },
+    "widgets": {
+      "application/vnd.jupyter.widget-state+json": {
+        "b4bbbc45af5e4acba4871d26acc2c8dc": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "VBoxModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "VBoxModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "VBoxView",
+            "box_style": "",
+            "children": [
+              "IPY_MODEL_87642c71fd904c54a9e600b9fdd47ded",
+              "IPY_MODEL_b03f590a6aee41a09f8b136da172d5fd"
+            ],
+            "layout": "IPY_MODEL_f09b19641f4b40bca41c23c4e8f9b5c1"
+          }
+        },
+        "87642c71fd904c54a9e600b9fdd47ded": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "LabelModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "LabelModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "LabelView",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_f24bb67844d147cdb7ec452f4bebe580",
+            "placeholder": "​",
+            "style": "IPY_MODEL_a9ac84792481436d8a9a998c44cfb644",
+            "value": "0.015 MB of 0.015 MB uploaded (0.000 MB deduped)\r"
+          }
+        },
+        "b03f590a6aee41a09f8b136da172d5fd": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "FloatProgressModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_dom_classes": [],
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "FloatProgressModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/controls",
+            "_view_module_version": "1.5.0",
+            "_view_name": "ProgressView",
+            "bar_style": "",
+            "description": "",
+            "description_tooltip": null,
+            "layout": "IPY_MODEL_92262aa7dda24fbeb2d2845eacf97e8e",
+            "max": 1,
+            "min": 0,
+            "orientation": "horizontal",
+            "style": "IPY_MODEL_dffdf91f14b4456eaa836b0e6abccd37",
+            "value": 1
+          }
+        },
+        "f09b19641f4b40bca41c23c4e8f9b5c1": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "f24bb67844d147cdb7ec452f4bebe580": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "a9ac84792481436d8a9a998c44cfb644": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "DescriptionStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "DescriptionStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "description_width": ""
+          }
+        },
+        "92262aa7dda24fbeb2d2845eacf97e8e": {
+          "model_module": "@jupyter-widgets/base",
+          "model_name": "LayoutModel",
+          "model_module_version": "1.2.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/base",
+            "_model_module_version": "1.2.0",
+            "_model_name": "LayoutModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "LayoutView",
+            "align_content": null,
+            "align_items": null,
+            "align_self": null,
+            "border": null,
+            "bottom": null,
+            "display": null,
+            "flex": null,
+            "flex_flow": null,
+            "grid_area": null,
+            "grid_auto_columns": null,
+            "grid_auto_flow": null,
+            "grid_auto_rows": null,
+            "grid_column": null,
+            "grid_gap": null,
+            "grid_row": null,
+            "grid_template_areas": null,
+            "grid_template_columns": null,
+            "grid_template_rows": null,
+            "height": null,
+            "justify_content": null,
+            "justify_items": null,
+            "left": null,
+            "margin": null,
+            "max_height": null,
+            "max_width": null,
+            "min_height": null,
+            "min_width": null,
+            "object_fit": null,
+            "object_position": null,
+            "order": null,
+            "overflow": null,
+            "overflow_x": null,
+            "overflow_y": null,
+            "padding": null,
+            "right": null,
+            "top": null,
+            "visibility": null,
+            "width": null
+          }
+        },
+        "dffdf91f14b4456eaa836b0e6abccd37": {
+          "model_module": "@jupyter-widgets/controls",
+          "model_name": "ProgressStyleModel",
+          "model_module_version": "1.5.0",
+          "state": {
+            "_model_module": "@jupyter-widgets/controls",
+            "_model_module_version": "1.5.0",
+            "_model_name": "ProgressStyleModel",
+            "_view_count": null,
+            "_view_module": "@jupyter-widgets/base",
+            "_view_module_version": "1.2.0",
+            "_view_name": "StyleView",
+            "bar_color": null,
+            "description_width": ""
+          }
+        }
+      }
+    }
+  },
+  "cells": [
+    {
+      "cell_type": "markdown",
+      "source": [
+        "# 4. 연습하기(1)"
+      ],
+      "metadata": {
+        "id": "3o0TTqxKfkJV"
+      }
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "4번 연습하기(1) 혹은 연습하기(2) 중 하나를 선택해주세요"
+      ],
+      "metadata": {
+        "id": "saKSBz9Ci_zb"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "!pip install wandb"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "TQjbUn2cu1iJ",
+        "outputId": "f0a1b748-e94f-4d95-8414-371049e1cd90"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Looking in indexes: https://pypi.org/simple, https://us-python.pkg.dev/colab-wheels/public/simple/\n",
+            "Requirement already satisfied: wandb in /usr/local/lib/python3.7/dist-packages (0.12.21)\n",
+            "Requirement already satisfied: sentry-sdk>=1.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.9.0)\n",
+            "Requirement already satisfied: PyYAML in /usr/local/lib/python3.7/dist-packages (from wandb) (3.13)\n",
+            "Requirement already satisfied: shortuuid>=0.5.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.0.9)\n",
+            "Requirement already satisfied: promise<3,>=2.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (2.3)\n",
+            "Requirement already satisfied: GitPython>=1.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (3.1.27)\n",
+            "Requirement already satisfied: psutil>=5.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (5.4.8)\n",
+            "Requirement already satisfied: requests<3,>=2.0.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (2.23.0)\n",
+            "Requirement already satisfied: docker-pycreds>=0.4.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (0.4.0)\n",
+            "Requirement already satisfied: protobuf<4.0dev,>=3.12.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (3.17.3)\n",
+            "Requirement already satisfied: pathtools in /usr/local/lib/python3.7/dist-packages (from wandb) (0.1.2)\n",
+            "Requirement already satisfied: Click!=8.0.0,>=7.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (7.1.2)\n",
+            "Requirement already satisfied: setproctitle in /usr/local/lib/python3.7/dist-packages (from wandb) (1.3.0)\n",
+            "Requirement already satisfied: setuptools in /usr/local/lib/python3.7/dist-packages (from wandb) (57.4.0)\n",
+            "Requirement already satisfied: six>=1.13.0 in /usr/local/lib/python3.7/dist-packages (from wandb) (1.15.0)\n",
+            "Requirement already satisfied: gitdb<5,>=4.0.1 in /usr/local/lib/python3.7/dist-packages (from GitPython>=1.0.0->wandb) (4.0.9)\n",
+            "Requirement already satisfied: typing-extensions>=3.7.4.3 in /usr/local/lib/python3.7/dist-packages (from GitPython>=1.0.0->wandb) (4.1.1)\n",
+            "Requirement already satisfied: smmap<6,>=3.0.1 in /usr/local/lib/python3.7/dist-packages (from gitdb<5,>=4.0.1->GitPython>=1.0.0->wandb) (5.0.0)\n",
+            "Requirement already satisfied: chardet<4,>=3.0.2 in /usr/local/lib/python3.7/dist-packages (from requests<3,>=2.0.0->wandb) (3.0.4)\n",
+            "Requirement already satisfied: certifi>=2017.4.17 in /usr/local/lib/python3.7/dist-packages (from requests<3,>=2.0.0->wandb) (2022.6.15)\n",
+            "Requirement already satisfied: urllib3!=1.25.0,!=1.25.1,<1.26,>=1.21.1 in /usr/local/lib/python3.7/dist-packages (from requests<3,>=2.0.0->wandb) (1.24.3)\n",
+            "Requirement already satisfied: idna<3,>=2.5 in /usr/local/lib/python3.7/dist-packages (from requests<3,>=2.0.0->wandb) (2.10)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "execution_count": null,
+      "metadata": {
+        "id": "rk2pBaXQsdfY"
+      },
+      "outputs": [],
+      "source": [
+        "import tensorflow as tf\n",
+        "from tensorflow import keras\n",
+        "import numpy as np\n",
+        "import matplotlib.pyplot as plt\n",
+        "import pandas as pd\n",
+        "from sklearn.model_selection import train_test_split\n",
+        "import random\n",
+        "import os\n",
+        "import wandb\n",
+        "from wandb.keras import WandbCallback"
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.1. 데이터셋 준비"
+      ],
+      "metadata": {
+        "id": "h5Wt1nv5fybE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Data load\n",
+        "\n",
+        "mnist = keras.datasets.mnist\n",
+        "\n",
+        "# MNIST 데이터를 로드. 다운로드하지 않았다면 다운로드까지 자동으로 진행됩니다. \n",
+        "(X_train, y_train), (X_test, y_test) = mnist.load_data()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sOwP2-v7vAV2",
+        "outputId": "3536b9af-bc1f-43fc-d5c7-42ce7714c9a6"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "2.8.2\n",
+            "60000\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# Validation Set\n",
+        "\n",
+        "X_train, X_val, y_train, y_val = train_test_split(X_train, y_train, test_size = 0.2) # 테스트 사이즈는 조절해주세요"
+      ],
+      "metadata": {
+        "id": "RdAsQyWMgio7"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.2. 데이터 분석"
+      ],
+      "metadata": {
+        "id": "b64b7-0pf2v8"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "plt.imshow(X_train[1],cmap=plt.cm.binary)\n",
+        "plt.show()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 265
+        },
+        "id": "uqk0L0vOsi3Z",
+        "outputId": "ded13d0c-2c99-4225-b325-b7cb02591bbe"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 432x288 with 1 Axes>"
+            ],
+            "image/png": "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\n"
+          },
+          "metadata": {
+            "needs_background": "light"
+          }
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(y_train[1])"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "yjrrf64eskiQ",
+        "outputId": "42dcf3c9-2ef2-48f0-8ef4-8eac3679e6f9"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "index=random.ranint(0,20000)\n",
+        "plt.imshow(X_train[index],cmap=plt.cm.binary)\n",
+        "plt.show()\n",
+        "print( (index+1), '번째 이미지의 숫자는 바로 ',  y_train[index], '입니다.')"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 283
+        },
+        "id": "VaWI4hK4sl2h",
+        "outputId": "bf2c3cc9-67d9-4b95-c72c-2a9be68802b2"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<Figure size 432x288 with 1 Axes>"
+            ],
+            "image/png": "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\n"
+          },
+          "metadata": {
+            "needs_background": "light"
+          }
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "10001 번째 이미지의 숫자는 바로  3 입니다.\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(X_train.shape)\n",
+        "print(X_val.shape)\n",
+        "print(X_test.shape)\n",
+        "print(y_train.shape)\n",
+        "print(y_val.shape)\n",
+        "print(y_test.shape)"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "oB3Gsfc7sm6p",
+        "outputId": "8aa7d9ba-12cb-41da-ec5d-d64415e0faab"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "(60000, 28, 28)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print('최소값:',np.min(X_train), ' 최대값:',np.max(X_train))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "qWiMTSNtsrdh",
+        "outputId": "a16ae7fb-be34-4b59-bed3-d56daee02566"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "최소값: 0  최대값: 255\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.3. 데이터 전처리"
+      ],
+      "metadata": {
+        "id": "yPypLh0Bhctc"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "X_train, X_val, X_test = X_train / 255.0, X_val / 255.0, X_test / 255.0\n",
+        "print('최소값:',np.min(X_train), ' 최대값:',np.max(X_train))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "OkYqXCFbsuGR",
+        "outputId": "a398ac35-e348-4e46-a96a-999d637968b3"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "최소값: 0.0  최대값: 1.0\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "print(\"Before Reshape - x_train shape: {}\".format(X_train.shape))\n",
+        "print(\"Before Reshape - x_val shape: {}\".format(X_val.shape))\n",
+        "print(\"Before Reshape - x_test shape: {}\".format(X_test.shape))\n",
+        "\n",
+        "X_train = X_train.reshape( -1, 28, 28, 1)  # 데이터갯수에 -1을 쓰면 reshape시 자동계산됩니다.\n",
+        "X_val = X_val.reshape( -1, 28, 28, 1)\n",
+        "X_test = X_test.reshape( -1, 28, 28, 1)\n",
+        "\n",
+        "print(\"After Reshape - x_train shape: {}\".format(X_train.shape))\n",
+        "print(\"After Reshape - x_val shape: {}\".format(X_val.shape))\n",
+        "print(\"After Reshape - x_test shape: {}\".format(X_test.shape))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "sOKeSNuNszHh",
+        "outputId": "24126abf-78fb-4853-86e3-4f88487a426f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Before Reshape - x_train_norm shape: (48000, 28, 28)\n",
+            "Before Reshape - x_train_norm shape: (48000, 28, 28)\n",
+            "Before Reshape - x_test_norm shape: (10000, 28, 28)\n",
+            "After Reshape - x_train_reshaped shape: (48000, 28, 28, 1)\n",
+            "After Reshape - x_train_reshaped shape: (12000, 28, 28, 1)\n",
+            "After Reshape - x_test_reshaped shape: (10000, 28, 28, 1)\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.4. WanDB init 해보기"
+      ],
+      "metadata": {
+        "id": "GboBGG-Phios"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# project와 entitiy는 제 이름으로 해뒀습니다. 참고 부탁드립니다.\n",
+        "\n",
+        "run = wandb.init(project = 'mnist-example',\n",
+        "                 entity=\"hongdune\",\n",
+        "                 config = {\n",
+        "                     \"n_channel_1\" : 16,\n",
+        "                     \"n_channel_2\" : 32,\n",
+        "                     \"n_dense\" : 32,\n",
+        "                     \"learning_rate\" : 0.05,\n",
+        "                     \"epochs\" : 5,\n",
+        "                     \"batch_size\" : 32,\n",
+        "                     \"optimizer\" : 'adam',\n",
+        "                     \"loss\" : \"sparse_categorical_crossentropy\",\n",
+        "                     \"metrics\" : [\"accuracy\"]\n",
+        "                 })\n",
+        "\n",
+        "config = wandb.config"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 88
+        },
+        "id": "nZ89QvGIux7g",
+        "outputId": "162b8fa4-23b8-4654-e9a4-ef6932db2e44"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: Currently logged in as: \u001b[33mhongdune\u001b[0m. Use \u001b[1m`wandb login --relogin`\u001b[0m to force relogin\n"
+          ]
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Tracking run with wandb version 0.12.21"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Run data is saved locally in <code>/content/wandb/run-20220802_042052-1ihjvpkz</code>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Syncing run <strong><a href=\"https://wandb.ai/hongdune/mnist-example/runs/1ihjvpkz\" target=\"_blank\">stellar-tree-3</a></strong> to <a href=\"https://wandb.ai/hongdune/mnist-example\" target=\"_blank\">Weights & Biases</a> (<a href=\"https://wandb.me/run\" target=\"_blank\">docs</a>)<br/>"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.5. 모델 설계하기"
+      ],
+      "metadata": {
+        "id": "GamQLhn1haZE"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "# 모델은 제가 임의로 만들었으니 학생들이 WanDB를 잘 적용했는지 체크 부탁드립니다.\n",
+        "\n",
+        "tf.keras.backend.clear_session()\n",
+        "\n",
+        "model=keras.models.Sequential()\n",
+        "model.add(keras.layers.Conv2D(config.n_channel_1, (3,3), activation='relu', input_shape=(28,28,1)))\n",
+        "model.add(keras.layers.MaxPool2D(2,2))\n",
+        "model.add(keras.layers.Conv2D(config.n_channel_2, (3,3), activation='relu'))\n",
+        "model.add(keras.layers.MaxPooling2D((2,2)))\n",
+        "model.add(keras.layers.Flatten())\n",
+        "model.add(keras.layers.Dense(config.n_dense, activation='relu'))\n",
+        "model.add(keras.layers.Dense(10, activation='softmax'))\n",
+        "\n",
+        "print('Model에 추가된 Layer 개수: ', len(model.layers))"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "5HqvwBzQsveh",
+        "outputId": "b05f1e09-bfbd-4841-8926-7dc8c59c971f"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Model에 추가된 Layer 개수:  7\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model.summary()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "9Efr3DRdsxwa",
+        "outputId": "45c76242-0ecc-4e5f-ff86-3b094d7fe2c1"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "Model: \"sequential\"\n",
+            "_________________________________________________________________\n",
+            " Layer (type)                Output Shape              Param #   \n",
+            "=================================================================\n",
+            " conv2d (Conv2D)             (None, 26, 26, 16)        160       \n",
+            "                                                                 \n",
+            " max_pooling2d (MaxPooling2D  (None, 13, 13, 16)       0         \n",
+            " )                                                               \n",
+            "                                                                 \n",
+            " conv2d_1 (Conv2D)           (None, 11, 11, 32)        4640      \n",
+            "                                                                 \n",
+            " max_pooling2d_1 (MaxPooling  (None, 5, 5, 32)         0         \n",
+            " 2D)                                                             \n",
+            "                                                                 \n",
+            " flatten (Flatten)           (None, 800)               0         \n",
+            "                                                                 \n",
+            " dense (Dense)               (None, 32)                25632     \n",
+            "                                                                 \n",
+            " dense_1 (Dense)             (None, 10)                330       \n",
+            "                                                                 \n",
+            "=================================================================\n",
+            "Total params: 30,762\n",
+            "Trainable params: 30,762\n",
+            "Non-trainable params: 0\n",
+            "_________________________________________________________________\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "model.compile(optimizer=config.optimizer,\n",
+        "             loss=config.loss,\n",
+        "             metrics=config.metrics)"
+      ],
+      "metadata": {
+        "id": "1BjGo-VGs2oR"
+      },
+      "execution_count": null,
+      "outputs": []
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.6. 모델 학습하기"
+      ],
+      "metadata": {
+        "id": "UknmBnURiuID"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "val_images, val_labels = X_test[:32], y_test[:32]\n",
+        "\n",
+        "model.fit(X_train, y_train,\n",
+        "          epochs=config.epochs,\n",
+        "          callbacks = [WandbCallback(data_type = 'image',\n",
+        "                                     training_data = (val_images, val_labels))]\n",
+        "          )"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "bauvBZctwlvI",
+        "outputId": "81632e40-c466-426a-b8d4-339673ea6c30"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m The save_model argument by default saves the model in the HDF5 format that cannot save custom objects like subclassed models and custom layers. This behavior will be deprecated in a future release in favor of the SavedModel format. Meanwhile, the HDF5 model is saved as W&B files and the SavedModel as W&B Artifacts.\n",
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m The data_type argument of wandb.keras.WandbCallback is deprecated and will be removed in a future release. Please use input_type instead.\n",
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m Setting input_type = data_type.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "WARNING:tensorflow:From /usr/local/lib/python3.7/dist-packages/tensorflow/python/ops/nn_ops.py:5214: tensor_shape_from_node_def_name (from tensorflow.python.framework.graph_util_impl) is deprecated and will be removed in a future version.\n",
+            "Instructions for updating:\n",
+            "Use `tf.compat.v1.graph_util.tensor_shape_from_node_def_name`\n",
+            "Epoch 1/5\n",
+            "1499/1500 [============================>.] - ETA: 0s - loss: 0.2174 - accuracy: 0.9339"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m No validation_data set, pass a generator to the callback.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\r1500/1500 [==============================] - 24s 15ms/step - loss: 0.2173 - accuracy: 0.9339 - _timestamp: 1659414432.0000 - _runtime: 380.0000\n",
+            "Epoch 2/5\n",
+            "1499/1500 [============================>.] - ETA: 0s - loss: 0.0683 - accuracy: 0.9793"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m No validation_data set, pass a generator to the callback.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\r1500/1500 [==============================] - 24s 16ms/step - loss: 0.0684 - accuracy: 0.9793 - _timestamp: 1659414456.0000 - _runtime: 404.0000\n",
+            "Epoch 3/5\n",
+            "1497/1500 [============================>.] - ETA: 0s - loss: 0.0502 - accuracy: 0.9846"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m No validation_data set, pass a generator to the callback.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\r1500/1500 [==============================] - 24s 16ms/step - loss: 0.0503 - accuracy: 0.9846 - _timestamp: 1659414480.0000 - _runtime: 428.0000\n",
+            "Epoch 4/5\n",
+            "1500/1500 [==============================] - ETA: 0s - loss: 0.0387 - accuracy: 0.9881"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m No validation_data set, pass a generator to the callback.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\r1500/1500 [==============================] - 24s 16ms/step - loss: 0.0387 - accuracy: 0.9881 - _timestamp: 1659414504.0000 - _runtime: 452.0000\n",
+            "Epoch 5/5\n",
+            "1498/1500 [============================>.] - ETA: 0s - loss: 0.0318 - accuracy: 0.9902"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stderr",
+          "text": [
+            "\u001b[34m\u001b[1mwandb\u001b[0m: \u001b[33mWARNING\u001b[0m No validation_data set, pass a generator to the callback.\n"
+          ]
+        },
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\b\r1500/1500 [==============================] - 23s 15ms/step - loss: 0.0318 - accuracy: 0.9902 - _timestamp: 1659414527.0000 - _runtime: 475.0000\n"
+          ]
+        },
+        {
+          "output_type": "execute_result",
+          "data": {
+            "text/plain": [
+              "<keras.callbacks.History at 0x7f0b8844be90>"
+            ]
+          },
+          "metadata": {},
+          "execution_count": 21
+        }
+      ]
+    },
+    {
+      "cell_type": "markdown",
+      "source": [
+        "## 4.7. 모델 평가하기"
+      ],
+      "metadata": {
+        "id": "_fqDZNdBizJD"
+      }
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "test_loss, test_accuracy = model.evaluate(X_test,y_test, verbose=2)\n",
+        "print(\"test_loss: {} \".format(test_loss))\n",
+        "print(\"test_accuracy: {}\".format(test_accuracy))\n",
+        "\n",
+        "wandb.log({\"Test Accuracy Rate: \" : round(test_accuracy * 100, 2),\n",
+        "           \"Test Error Rate: \" : round((1 - test_accuracy) * 100, 2)})"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/"
+        },
+        "id": "_z3NWV0ps4L5",
+        "outputId": "5585205e-6d51-4752-9aa8-164585c1f7b8"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "stream",
+          "name": "stdout",
+          "text": [
+            "313/313 - 2s - loss: 0.0372 - accuracy: 0.9872 - 2s/epoch - 6ms/step\n",
+            "test_loss: 0.03720688074827194 \n",
+            "test_accuracy: 0.9872000217437744\n"
+          ]
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        "wandb.finish()"
+      ],
+      "metadata": {
+        "colab": {
+          "base_uri": "https://localhost:8080/",
+          "height": 378,
+          "referenced_widgets": [
+            "b4bbbc45af5e4acba4871d26acc2c8dc",
+            "87642c71fd904c54a9e600b9fdd47ded",
+            "b03f590a6aee41a09f8b136da172d5fd",
+            "f09b19641f4b40bca41c23c4e8f9b5c1",
+            "f24bb67844d147cdb7ec452f4bebe580",
+            "a9ac84792481436d8a9a998c44cfb644",
+            "92262aa7dda24fbeb2d2845eacf97e8e",
+            "dffdf91f14b4456eaa836b0e6abccd37"
+          ]
+        },
+        "id": "RrDaeOFms-Mh",
+        "outputId": "62972440-9786-439e-c4eb-6d367d812fd5"
+      },
+      "execution_count": null,
+      "outputs": [
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Waiting for W&B process to finish... <strong style=\"color:green\">(success).</strong>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "VBox(children=(Label(value='0.002 MB of 0.002 MB uploaded (0.000 MB deduped)\\r'), FloatProgress(value=1.0, max…"
+            ],
+            "application/vnd.jupyter.widget-view+json": {
+              "version_major": 2,
+              "version_minor": 0,
+              "model_id": "b4bbbc45af5e4acba4871d26acc2c8dc"
+            }
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "<style>\n",
+              "    table.wandb td:nth-child(1) { padding: 0 10px; text-align: left ; width: auto;} td:nth-child(2) {text-align: left ; width: 100%}\n",
+              "    .wandb-row { display: flex; flex-direction: row; flex-wrap: wrap; justify-content: flex-start; width: 100% }\n",
+              "    .wandb-col { display: flex; flex-direction: column; flex-basis: 100%; flex: 1; padding: 10px; }\n",
+              "    </style>\n",
+              "<div class=\"wandb-row\"><div class=\"wandb-col\"><h3>Run history:</h3><br/><table class=\"wandb\"><tr><td>Test Accuracy Rate: </td><td>▁</td></tr><tr><td>Test Error Rate: </td><td>▁</td></tr><tr><td>accuracy</td><td>▁▇▇██</td></tr><tr><td>epoch</td><td>▁▃▅▆█</td></tr><tr><td>loss</td><td>█▂▂▁▁</td></tr></table><br/></div><div class=\"wandb-col\"><h3>Run summary:</h3><br/><table class=\"wandb\"><tr><td>GFLOPS</td><td>0.0007</td></tr><tr><td>Test Accuracy Rate: </td><td>98.72</td></tr><tr><td>Test Error Rate: </td><td>1.28</td></tr><tr><td>accuracy</td><td>0.99025</td></tr><tr><td>epoch</td><td>4</td></tr><tr><td>loss</td><td>0.0318</td></tr></table><br/></div></div>"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Synced <strong style=\"color:#cdcd00\">stellar-tree-3</strong>: <a href=\"https://wandb.ai/hongdune/mnist-example/runs/1ihjvpkz\" target=\"_blank\">https://wandb.ai/hongdune/mnist-example/runs/1ihjvpkz</a><br/>Synced 5 W&B file(s), 1 media file(s), 0 artifact file(s) and 0 other file(s)"
+            ]
+          },
+          "metadata": {}
+        },
+        {
+          "output_type": "display_data",
+          "data": {
+            "text/plain": [
+              "<IPython.core.display.HTML object>"
+            ],
+            "text/html": [
+              "Find logs at: <code>./wandb/run-20220802_042052-1ihjvpkz/logs</code>"
+            ]
+          },
+          "metadata": {}
+        }
+      ]
+    },
+    {
+      "cell_type": "code",
+      "source": [
+        ""
+      ],
+      "metadata": {
+        "id": "uvWazQYWxVMA"
+      },
+      "execution_count": null,
+      "outputs": []
+    }
+  ]
+}
