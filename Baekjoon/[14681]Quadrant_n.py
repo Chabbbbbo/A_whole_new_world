@@ -1,6 +1,7 @@
-point_x, point_y = map(int, input().split())
+point_x = int(input())
+point_y = int(input())
 
-if point_x > 0:
-    print("1" if point_y < 0 else "2")
+if point_y > 0:
+    print("2" if point_x < 0 else "1")
 else:
-    print("4" if point_y < 0 else "3")
+    print("3" if point_x < 0 else "4")

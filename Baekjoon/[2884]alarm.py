@@ -1,7 +1,10 @@
 hour, min = map(int, input().split())
 
-def alarm_time(hour,min):
-    if hour in [0, 24]:
+# 일반 
+if hour
+
+re_hour = 23 if hour == 0 else (hour -1)
+re_min = min - 45 
         
     
     
