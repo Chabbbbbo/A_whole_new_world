@@ -1,7 +1,8 @@
-```
+'''
 영상 링크 : https://youtu.be/Svhp73MIOqY
 정리 블로그 : https://velog.io/@cbkyeong/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B8%B0%EC%B4%88-3.-%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%8A%A4%ED%83%9D-%EC%A4%91%EC%9C%84%ED%91%9C%ED%98%84%EC%8B%9D%EC%9D%84-%ED%9B%84%EC%9C%84%ED%91%9C%ED%98%84%EC%8B%9D%EC%9C%BC%EB%A1%9C-%EB%B3%80%ED%99%98%ED%95%98%EA%B8%B0
-```
+'''
+
 
 # 연산 우선순위
 priority = {'*' : 3, '/' : 3, '+' : 2, '-' : 2, '(' : 1}

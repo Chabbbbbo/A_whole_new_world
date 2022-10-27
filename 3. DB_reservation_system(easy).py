@@ -1,6 +1,8 @@
-# SQLitet3를 이용한 간단 Reservation System
-# 관련 블로그 내용 : https://velog.io/@cbkyeong/DB-%EC%82%AC%EC%9A%A9-%EC%97%B0%EC%8A%B5%ED%8E%B8-%EA%B0%84%EB%8B%A8-%EC%98%88%EC%95%BD%EC%8B%9C%EC%8A%A4%ED%85%9C
-====================================================================================
+'''
+SQLitet3를 이용한 간단 Reservation System
+관련 블로그 내용 : https://velog.io/@cbkyeong/DB-%EC%82%AC%EC%9A%A9-%EC%97%B0%EC%8A%B5%ED%8E%B8-%EA%B0%84%EB%8B%A8-%EC%98%88%EC%95%BD%EC%8B%9C%EC%8A%A4%ED%85%9C
+'''
+
 import sqlite3
 
 

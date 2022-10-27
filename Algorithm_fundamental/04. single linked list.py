@@ -1,7 +1,7 @@
-```
+'''
 영상 링크 : https://youtu.be/3h7jQlxTeiU
 정리 블로그 : https://velog.io/@cbkyeong/%EC%95%8C%EA%B3%A0%EB%A6%AC%EC%A6%98%EA%B8%B0%EC%B4%88-4.%EC%9E%90%EB%A3%8C%EA%B5%AC%EC%A1%B0%EC%97%B0%EA%B2%B0%EB%A6%AC%EC%8A%A4%ED%8A%B8-%EB%8B%A8%EC%9D%BC-%EC%97%B0%EA%B2%B0-%EB%A6%AC%EC%8A%A4%ED%8A%B8
-```
+'''
 
 class Node:
     def __init__(self, data):
