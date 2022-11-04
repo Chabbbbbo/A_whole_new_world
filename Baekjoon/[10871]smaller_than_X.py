@@ -8,3 +8,10 @@ num_list = list(map(int, input().split()))
 for num in num_list:
     if num < X:
         print(num, end = ' ') 
+
+#### N 이용한 코드 #####
+N, X = map(int, input().split())
+A = list(map(int, input().split()))
+for i in range(N):
+    if A[i] < X:
+        print(A[i], end=" ")
