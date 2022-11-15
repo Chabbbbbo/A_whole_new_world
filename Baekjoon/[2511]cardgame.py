@@ -4,8 +4,7 @@
 
 A = list(map(int, input().split()))
 B = list(map(int, input().split()))
-a = 0
-b = 0
+a = b =0
 
 if A == B:
     print('10 10 \nD')
@@ -17,8 +16,7 @@ else:
         elif A[i] < B[i]:
             b += 3; win = 'B'
         else:
-            a +=1
-            b +=1
+            a +=1; b +=1
     print(a, b)
     if a > b:
         print('A')
