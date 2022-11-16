@@ -13,5 +13,5 @@ for i in word:
     if i in alphabet_dict:
         alphabet_dict[i] += 1
 
-for k, v in alphabet_dict.items():
+for v in alphabet_dict.velues():
     print(v, end = ' ')
