@@ -14,3 +14,12 @@ for _ in range(int(input())):
         else:
             pass
     print(*(i for i in new_list), sep = '')
+
+##### Code2
+for _ in range(int(input())):
+    R, S = input().split()
+    for str_ in S:
+        new_str = str_ * int(R)
+        print(str_ * int(R), end = '')
+    print()
+        
