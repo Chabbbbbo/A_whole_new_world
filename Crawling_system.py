@@ -14,6 +14,7 @@ import requests
 from bs4 import BeautifulSoup
 import time
 from datetime import datetime
+import ray
 
 # data import
 import re
@@ -225,7 +226,7 @@ def main():
     for search_word in json_data:
         word_time = time.time()
         for related_word in json_data[search_word]:
-            if re.match("^[가-힣a-zA-Z0-9_ ]+$", (search_word and related_word)):
+            if (re.match("^[가-힣a-zA-Z0-9_ ]+$", search_word) and re.match("^[가-힣a-zA-Z0-9_ ]+$", related_word)):
                 search_list = crawling_system.pp_crawling(driver, search_word, related_word)
                 crawling_data.append(search_list)
                 search_list = crawling_system.fm_crawling(driver, search_word, related_word)
