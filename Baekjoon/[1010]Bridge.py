@@ -1,5 +1,6 @@
 ```
 - 문제 링크 : https://www.acmicpc.net/problem/1010
+- 정리 블로그 : https://velog.io/@cbkyeong/%EB%B0%B1%EC%A4%801010-%EB%8B%A4%EB%A6%AC%EB%86%93%EA%B8%B0Python
 ```
 def factorial(n:int) -> int:
     n_fac = 1
